@@ -25,6 +25,9 @@ public class CDSAlgo {
 					MIS[y] = true;
 				}
 			}
+			
+			
+			
 		}
 		for(int i=0; i<myGraph.getNumberOfVertex(); i++) {
 			if(MIS[i]) {
